@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Gokul s
+* **Register Number**: 212224230075
+* **Date of Submission**: 21/05/2026
 
 ---
 
@@ -41,6 +41,8 @@ Create a new Virtual Private Cloud (VPC) with a private IP address range. The VP
 
 Students should create a VPC with an appropriate CIDR block (for example, 10.0.0.0/16) and assign a meaningful name.
 
+<img width="940" height="536" alt="image" src="https://github.com/user-attachments/assets/079e5c36-f819-4fbd-8e07-4bec97611e74" />
+
 
 ### Task 2: Create a Public Subnet
 
@@ -48,10 +50,13 @@ Create a subnet inside the VPC to host public resources. Enable auto-assign publ
 
 The subnet should use a smaller CIDR range (for example, 10.0.1.0/24).
 
+<img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/da69ebfa-6329-4ff0-b4ef-4683dfb5a676" />
+
 
 ### Task 3: Create and Attach Internet Gateway
 
 Create an Internet Gateway (IGW) and attach it to the VPC. This allows communication between resources in the VPC and the internet.
+
 
 
 ### Task 4: Configure Route Table
@@ -59,6 +64,8 @@ Create an Internet Gateway (IGW) and attach it to the VPC. This allows communica
 Create a route table and add a default route (0.0.0.0/0) pointing to the Internet Gateway. Associate this route table with the public subnet.
 
 This step ensures that traffic from the subnet can reach the internet.
+
+<img width="940" height="506" alt="image" src="https://github.com/user-attachments/assets/36f581a5-c3da-4bd2-9634-8f89fd083854" />
 
 
 ### Task 5: Create Security Group
@@ -69,12 +76,17 @@ SSH on port 22
 
 HTTP on port 80
 
+<img width="940" height="536" alt="image" src="https://github.com/user-attachments/assets/be5ec717-d6c3-447d-9503-aafd51d2f846" />
+
 
 ### Task 6: Launch EC2 Instance
 
 Launch an EC2 instance inside the public subnet using Amazon Linux 2 AMI and a suitable instance type (t2.micro).
 
 Attach the previously created security group and key pair.
+
+<img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/f80564a0-dbfa-4d07-95c7-228d6bfcbc2c" />
+
 
 
 ### Task 7: Configure Web Server
@@ -83,35 +95,29 @@ Install and start a web server (Apache HTTPD) on the EC2 instance using user dat
 
 Create a simple HTML page and verify that it can be accessed from a web browser using the public IP address of the instance.---
 
-## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="940" height="536" alt="image" src="https://github.com/user-attachments/assets/4cbdb079-4ba6-4f90-9b1a-6704fb14bf67" />
+<img width="602" height="344" alt="image" src="https://github.com/user-attachments/assets/63828dcc-d34e-4a66-a608-92e813810ade" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/d965920b-32bf-4bac-8bd8-801b34ff6d9c" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="940" height="539" alt="image" src="https://github.com/user-attachments/assets/b582e4d2-623e-49fa-be10-825d6e06e306" />
+
 
 ---
 
