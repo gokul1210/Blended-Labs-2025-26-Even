@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Gokul S
+* **Register Number**: 21224230075
+* **Date of Submission**: 22/05/2026
 
 ---
 
@@ -39,6 +39,8 @@ The objective of this experiment is to understand the fundamentals of Amazon Ela
 
 Explore the EC2 service dashboard in the AWS Management Console. Observe the different sections such as Instances, AMIs, Instance Types, Key Pairs, Security Groups, and Elastic IPs.
 
+
+
 ---
 
 ### Task 2: Launch an EC2 Instance
@@ -56,6 +58,7 @@ Configure a security group to allow inbound access:
 
 This security group acts as a firewall for the instance.
 
+
 ---
 
 ### Task 4: Connect to EC2 Instance
@@ -67,7 +70,6 @@ For Amazon Linux:
 ```
 ssh -i "keyname.pem" ec2-user@<Public-IP>
 ```
-
 ---
 
 ### Task 5: Perform Basic Instance Operations
@@ -86,43 +88,39 @@ Observe the state changes of the instance.
 
 Monitor the EC2 instance using the Monitoring tab. Observe metrics such as CPU utilization, network in/out, and instance status checks.
 
+
+
 ---
 
 ### Task 7: Terminate EC2 Instance
 
 Terminate the EC2 instance after completing the experiment to avoid unnecessary AWS charges.
 
----
 
-## Workflow (Student Explanation)
-
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
 
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
+<img width="940" height="535" alt="image" src="https://github.com/user-attachments/assets/f7a02500-ab8a-4e49-ac28-9c64a58f9711" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="940" height="536" alt="image" src="https://github.com/user-attachments/assets/09599a6f-7c8f-43aa-bd43-ae5635c8e473" />
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="940" height="536" alt="image" src="https://github.com/user-attachments/assets/460e5274-6b1b-438c-b639-1e633d3d284d" />
+
+
+<img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/7bdf1e8e-ec58-4508-867f-2b39b882d134" />
 
 ---
 
